@@ -1,0 +1,82 @@
+/*Table and mobile*/
+@media (max-width: 1023px){
+    .buy-btn{
+        padding: 15px 16px;
+    }
+    .contact-item input{
+        padding:15px;
+    }
+}
+/*Table*/
+@media(min-width: 740px) and (max-width: 1023px){
+    .search-btn{
+        display:block;
+    }
+}
+/*PC*/
+@media(min-width: 1024px){
+    .search-btn{
+        display:block;
+    }
+    
+}
+/*Mobile*/
+@media (max-width: 739px){
+    #header{
+        overflow: hidden;
+    }
+    .nav > li{
+        display: block;
+    }
+    .nav{
+        display: block;
+    }
+    .nav .subnav{
+        position: initial;
+        width:100%;
+        background-color: black;
+    }
+    .nav .subnav a{
+        color: #fff;
+        padding: 0 41px;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .member-item{
+        width:100%;
+        
+    }
+    .member-img{
+        width:60%;
+    }
+    .place-item{
+        width:100%;
+        padding-top:16px;
+        
+    }
+    .ticket-list{
+        margin-bottom: 16px;
+    }
+    .contact-item{
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .ip{
+        width:100%;
+    }
+    .contact-item{
+        padding-bottom: 60px;
+    }
+    .contact-info{
+        padding-bottom: 20px;
+    }
+    .btn-send{
+        width:100%;
+        -webkit-appearance: none ;
+    }
+    .buy-btn{
+        width: 100%;
+    }
+
+}
